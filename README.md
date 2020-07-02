@@ -57,10 +57,10 @@ Helm can be help, because you is easier than write manifest directly. Review the
 
 - 1st. Create a template with *helm create foo*. This will create the follow files: 
 
-    foo/
-    ├── .helmignore   # Contains patterns to ignore when packaging Helm charts.
-    ├── Chart.yaml    # Information about your chart
-    ├── values.yaml   # The default values for your templates
-    ├── charts/       # Charts that this chart depends on
-    └── templates/    # The template files
-└── tests/    # The test files
+        foo/
+        ├── .helmignore   # Contains patterns to ignore when packaging Helm charts.
+        ├── Chart.yaml    # Information about your chart
+        ├── values.yaml   # The default values for your templates
+        ├── charts/       # Charts that this chart depends on
+        └── templates/    # The template files
+    └── tests/    # The test files
